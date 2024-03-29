@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> FORM CONTACT US</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+ <style>
+    .container{
+        min-height: 100vh;
+        background: #00071d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(images/lip2.jpg) no-repeat center center/cover;
+    }
+    .container form{
+        width: 670px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba(255, 255, 255,0.1);
+        backdrop-filter: blur(10px);
+        flex-wrap: wrap;
+    }
+    .container form h1{
+        color: #fff;
+        font-weight: 540;
+        margin-top: 20px;
+        width: 500px;
+        text-align: center;
+    }
+    .container form input{
+        width: 290px;
+        height: 40px;
+        padding-left:10px;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        margin-bottom: 10px;
+        background: none;
+        border-bottom: 2px solid #fff;
+    }
+    .container form input::placeholder{
+        color: #ddd;
+    }
+    .container form #lastname.
+    .container form #mobile{
+        margin-left: 20px;
+    }
+    .container form h4{
+        color: #fff;
+        font-weight: 360;
+        width: 600px;
+        margin-top: 20px;
+    }
+    .container form textarea{
+        background: none;
+        border: none;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 10px;
+        outline: none;
+        min-width: 640px;
+        min-width: 640px;
+        min-height: 80px;
+        min-height: 80px;
+    }
+    textarea::-webkit-scrollbar{
+        width: 1cm;
+    }
+    textarea::-webkit-scrollbar-thumb{
+        background-color: rgba(194, 194, 194, 0.713);
+    }
+    .container form #button{
+        border: none;
+        background: #fff;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #333;
+        width: 100px;
+        padding: 0;
+        margin-right: 500px;
+        margin-bottom: 30px;
+        transition: 0.3s;
+    }
+    .container form #button:hover{
+        opacity: 0.7;
+    }
+
+
+/* .contact-box{
+    width: 500px;
+    background-color: rgba(15, 36, 41, 0.915);
+    box-shadow: 0 0 20px 0 #8f8f8ff2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -30%);
+    position: absolute;
+    flex-wrap: wrap;
+}
+.contact-box h1 {
+    color: #fff;
+
+}
+form{
+		margin: 35px;
+	}
+	.input-field{
+		width: 400px;
+		height: 20px;
+		margin-top: 20px;
+		padding-right: 10px;
+		border: 1px solid #777;
+		border-radius: 14px;
+		outline: none;
+	}
+	.textarea-field{
+		height: 150px;
+		padding-top: 10px;
+	}
+	.btn{
+		border-radius: 20px;
+		color: rgb(18, 17, 17);
+		margin-top: 18px;
+		padding: 10px;
+		background-color: rgb(239, 229, 229);
+		font-size: 12px;
+		border: none;
+		cursor: pointer;
+	} */
+</style>
+<body>
+    <header>
+        <nav>
+         <div class="logoDiv">
+             <h3 class="logo">LIPFINITY</h3>
+         </div> 
+          <div class="navlinks">
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About us</a></li>
+                 <li><a href="contact.html">Contact us</a></li>
+             </ul>
+             </div>
+             <div class="shop">
+                 <ul>
+                     <li><a href="search">Search</a></li>
+                     <li><a href="cart">Cart</a></li>
+                     <li><a href="profile">Profile</a></li>
+                 </ul>
+             </div>
+             </nav>
+         </header>  
+
+          <div class="container">
+            <form>
+                <h1>Contact Us Form</h1>
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" placeholder="last Name" required>
+                <input type="email" id="email" placeholder="email" required>
+                <input type="text" id="mobile" placeholder="mobile" required>
+                <h4>Type your message Here...</h4>
+                <textarea required></textarea>
+                <input type="submit"  value="Send" id="button">
+            </form>
+          </div>
+
+         <!-- <div class="contact-box">
+            <form>
+                <h1>Contact us form</h1>
+                <input type="text" class="input-field" placeholder="first name">
+                <input type="text" class="input-field" placeholder="last name">
+                <input type="text" class="input-field" placeholder="your Email">
+                <input type="text" class="input-field" placeholder="phone number">
+                <h4>Type your text here...</h4>
+                <textarea type="text" class="input-field textarea-field" placeholder="your message">
+                </textarea>
+                <button type="button" class="btn">send message</button>
+            </form>
+        </div>
+        -->
+
+</body>
+</html>
